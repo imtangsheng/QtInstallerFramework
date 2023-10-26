@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>DC Robot Studio</Name>
+    <Version>5.2.0</Version>
+    <Title>DC Robot Studio 机器人软件服务平台</Title>
+    <Publisher>大仓机器人</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>DC Robot Studio Server</StartMenuDir>
+<!--    <ProductName>tetst</ProductName>-->
+<!--    <ProductVersion>5.2.0</ProductVersion>-->
+    <TargetDir>@HomeDir@/DCRobotStudio</TargetDir>
+    <InstallerWindowIcon>app.ico</InstallerWindowIcon>
+    <InstallerApplicationIcon>favicon</InstallerApplicationIcon>
+    <Logo>logo.ico</Logo>
+    <RunProgram>@TargetDir@/RobotStudioServer.exe</RunProgram>
+    <AdminTargetDir>@RootDir@/DCRobotStudio</AdminTargetDir>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+    <MaintenanceToolName>DCRobotStudioTool</MaintenanceToolName>
+<!--    <UpdateText></UpdateText>-->
+<!--
+    <Packages>
+        <Package>
+            <Name>RobotStudioApplication</Name>
+            <DisplayName>Robot Studio Application</DisplayName>
+            <Description>This package installs Robot Studio Application.</Description>
+            <Version>5.0.0</Version>
+            <ReleaseDate>2023-10-17</ReleaseDate>
+            <Default>true</Default>
+            <ForcedInstallation>true</ForcedInstallation>
+            <Overwrite>true</Overwrite>
+            <Script>installscript.qs</Script>
+        </Package>
+    </Packages>-->
+
+</Installer>

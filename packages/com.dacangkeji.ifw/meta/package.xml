@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>大仓机器人软件后台服务软件平台</DisplayName>
+    <Description>大仓机器人软件后台服务软件平台，安装程序</Description>
+    <Version>5.2.0-1</Version>
+    <ReleaseDate>2023-10-24</ReleaseDate>
+<!--    <Name>DC Robot Studio</Name>-->
+
+<!--    <Default>true</Default>-->
+    <ForcedInstallation>true</ForcedInstallation>
+    <Overwrite>true</Overwrite>
+    <Script>installscript.qs</Script>
+</Package>

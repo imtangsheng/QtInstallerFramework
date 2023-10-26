@@ -1,0 +1,36 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION 2,0,0,1
+  PRODUCTVERSION 5,2,0
+  FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+  FILEFLAGS 0x1L
+#else
+  FILEFLAGS 0x0L
+#endif
+  FILEOS 0x40004L
+  FILETYPE 0x1L
+  FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0" // 中文语言 ID
+        BEGIN
+            VALUE "CompanyName", "DcRobot"
+            VALUE "FileDescription", "DcRobotStudio 后台服务软件平台"
+            VALUE "FileVersion", "1.0.0.2"
+            VALUE "InternalName", "DC Robot Studio"
+            VALUE "LegalCopyright", "版权所有 (C) 2023 DcRobot 公司"
+            VALUE "OriginalFilename", "RobotStudioServer.exe"
+            VALUE "ProductName", "RobotStudioServer 服务器端软件"
+            VALUE "ProductVersion", "5.0.0"
+            VALUE "Qt Version", "6.6.0" // 增加Qt版本
+            VALUE "OS Version", "Windows 10" // 增加系统版本
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200 // 中文语言代码
+    END
+END
